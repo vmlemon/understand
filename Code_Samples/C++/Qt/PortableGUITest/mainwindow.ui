@@ -60,5 +60,22 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>textBrowser</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>98</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>278</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
