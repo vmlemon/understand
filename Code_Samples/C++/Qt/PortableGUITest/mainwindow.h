@@ -1,26 +1,8 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+/****************************************************************************
+** Form interface generated from reading ui file 'mainwindow.ui'
+**
+** Created by User Interface Compiler
+**
+** WARNING! All changes made in this file will be lost!
+****************************************************************************/
 
-#include <QtGui/QMainWindow>
-
-namespace Ui
-{
-    class MainWindow;
-}
-
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
-
-public:
-    MainWindow(QWidget *parent = 0);
-    ~MainWindow();
-
-private:
-    Ui::MainWindow *ui;
-
-private slots:
-    void on_pushButton_clicked();
-};
-
-#endif // MAINWINDOW_H
