@@ -41,6 +41,7 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
   </valuemap>
  </data>
  <data>
@@ -48,6 +49,7 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
    <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
   </valuemap>
  </data>
  <data>
@@ -237,6 +239,90 @@
   <variable>buildconfiguration-Debug-cleanstep0</variable>
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >CLASSPATH=/usr/GNUstep/System/Library/Libraries/Java:/usr/GNUstep/Local/Library/Libraries/Java:/home/tyson/GNUstep/Library/Libraries/Java</value>
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-0l4CSbUljN,guid=79b5c309fec18d2e9a346d1e4a4b1267</value>
+    <value type="QString" >DESKTOP_SESSION=kde</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISABLE_IMSETTINGS=1</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >DRY_RUN=1</value>
+    <value type="QString" >GDMSESSION=kde</value>
+    <value type="QString" >GDM_LANG=en_GB.UTF-8</value>
+    <value type="QString" >GNOME_KEYRING_PID=3608</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-QAHPb7/socket</value>
+    <value type="QString" >GNUSTEP_FLATTENED=yes</value>
+    <value type="QString" >GNUSTEP_HOST=i686-pc-linux-gnu</value>
+    <value type="QString" >GNUSTEP_HOST_CPU=ix86</value>
+    <value type="QString" >GNUSTEP_HOST_OS=linux-gnu</value>
+    <value type="QString" >GNUSTEP_HOST_VENDOR=pc</value>
+    <value type="QString" >GNUSTEP_IS_FLATTENED=yes</value>
+    <value type="QString" >GNUSTEP_LOCAL_ROOT=/usr/GNUstep/Local</value>
+    <value type="QString" >GNUSTEP_MAKEFILES=/usr/GNUstep/System/Library/Makefiles</value>
+    <value type="QString" >GNUSTEP_NETWORK_ROOT=/usr/GNUstep/Network</value>
+    <value type="QString" >GNUSTEP_PATHLIST=/usr/GNUstep/System:/usr/GNUstep/Network:/usr/GNUstep/Local:/home/tyson/GNUstep</value>
+    <value type="QString" >GNUSTEP_SYSTEM_ROOT=/usr/GNUstep/System</value>
+    <value type="QString" >GNUSTEP_USER_ROOT=/home/tyson/GNUstep</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/gpg-fn3DFb/S.gpg-agent:3970:1</value>
+    <value type="QString" >GS_LIB=</value>
+    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/tyson/.gtkrc-2.0:/home/tyson/.gtkrc-2.0-kde4:/home/tyson/.kde/share/config/gtkrc-2.0</value>
+    <value type="QString" >GTK_IM_MODULE=gtk-im-context-simple</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/tyson/.gtkrc::/home/tyson/.kde/share/config/gtkrc</value>
+    <value type="QString" >GUILE_LOAD_PATH=/home/tyson/GNUstep/Library/Libraries/Guile:/usr/GNUstep/Local/Library/Libraries/Guile:/usr/GNUstep/System/Library/Libraries/Guile</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/tyson</value>
+    <value type="QString" >HOSTNAME=nagasaki.home</value>
+    <value type="QString" >INFOPATH=/usr/GNUstep/System/Library/Documentation/info::/usr/GNUstep/Local/Library/Documentation/info::/home/tyson/GNUstep/Library/Documentation/info:</value>
+    <value type="QString" >INPUTRC=/etc/inputrc</value>
+    <value type="QString" >KDEDIRS=/usr</value>
+    <value type="QString" >KDE_FULL_SESSION=true</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >KDE_MULTIHEAD=false</value>
+    <value type="QString" >KDE_SESSION_UID=500</value>
+    <value type="QString" >KDE_SESSION_VERSION=4</value>
+    <value type="QString" >LANG=en_GB.UTF-8</value>
+    <value type="QString" >LANGUAGE=</value>
+    <value type="QString" >LD_LIBRARY_PATH=/usr/lib/qtcreator:/home/tyson/GNUstep/Library/Libraries:/usr/GNUstep/Local/Library/Libraries:/usr/GNUstep/System/Library/Libraries</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LIBRARY_COMBO=gnu-gnu-gnu</value>
+    <value type="QString" >LOADEDMODULES=</value>
+    <value type="QString" >LOGNAME=tyson</value>
+    <value type="QString" >MAIL=/var/spool/mail/tyson</value>
+    <value type="QString" >MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:</value>
+    <value type="QString" >MODULESHOME=/usr/share/Modules</value>
+    <value type="QString" >NXDIR=/usr/NX</value>
+    <value type="QString" >PATH=/usr/lib/qt4/bin:/home/tyson/GNUstep/Tools:/usr/GNUstep/Local/Tools:/usr/GNUstep/System/Tools:/usr/local/SMART Technologies Inc/Notebook Software/bin:/usr/local/SMART Technologies Inc/SMART Board Software/bin:/opt/blackduck/bin:/usr/lib/qt-3.3/bin:/usr/kerberos/bin:/usr/lib/ccache::/usr/local/win32/bin:/opt/perforce/bin:/opt/cxoffice/bin:/usr/local/bin:/usr/bin:/bin:/usr/NX/bin:/opt/real/RealPlayer:/usr/local/SMART Technologies Inc/SMART Interactive Viewer/bin:/usr/local/SMART Technologies Inc/Gallery Setup/bin:/home/tyson/bin</value>
+    <value type="QString" >PWD=/home/tyson/Documents</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >QTINC=/usr/lib/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/home/tyson/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString" >SAL_GTK_USE_PIXMAPPAINT=1</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/4057,unix/unix:/tmp/.ICE-unix/4057</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=2</value>
+    <value type="QString" >SSH_AGENT_PID=3852</value>
+    <value type="QString" >SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/ssh-kasAdS3613/agent.3613</value>
+    <value type="QString" >TERM=dumb</value>
+    <value type="QString" >USER=tyson</value>
+    <value type="QString" >USERNAME=tyson</value>
+    <value type="QString" >XAUTHORITY=/var/run/gdm/auth-for-tyson-AgJ5iD/database</value>
+    <value type="QString" >XCURSOR_THEME=Bluecurve</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/share/kde-settings/kde-profile/default/share:/usr/local/share:/usr/share</value>
+    <value type="QString" >XDG_MENU_PREFIX=kde4-</value>
+    <value type="QString" >XDG_SESSION_COOKIE=16ed8a284a276ada08c1ebee494e28d1-1246433894.862758-15487898</value>
+    <value type="QString" >XMODIFIERS=@im=none</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >clean</value>
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/tyson/understand_trunk/Code_Samples/C++/Qt/PortableGUITest</value>
   </valuemap>
  </data>
  <data>

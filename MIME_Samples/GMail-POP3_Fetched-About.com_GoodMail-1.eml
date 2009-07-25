@@ -1,0 +1,551 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: tyson.key@gmail.com
+Received: by 10.223.113.12 with SMTP id y12cs201528fap;
+        Sun, 5 Jul 2009 13:08:08 -0700 (PDT)
+Received: by 10.204.78.131 with SMTP id l3mr3765176bkk.186.1246824387601;
+        Sun, 05 Jul 2009 13:06:27 -0700 (PDT)
+Received-SPF: softfail (google.com: best guess record for domain of transitioning [207.241.148.227] does not designate 207.241.148.227 as permitted sender) client-ip=207.241.148.227;
+Received: by 10.188.26.22 with POP3 id 22mf1145335bwz.29;
+        Sun, 05 Jul 2009 13:06:27 -0700 (PDT)
+X-Gmail-Fetch-Info: vmlemon@yahoo.co.uk 2 pop.mail.yahoo.co.uk 995 vmlemon@yahoo.co.uk
+X-Apparently-To: vmlemon@yahoo.co.uk via 87.248.110.216; Wed, 17 Jun 2009 20:45:50 +0000
+X-YMailISG: 1Bd.mfIWLDt42mgk7Y3h6KeVVycXugCV7cWM2ktqAEj6evLUAkgYKtt_P5FYMD3qSAe_NGKjK3UlZDQboTjSD1gAy149torWJ7tVAUoWdprGsrUSnFFpRBrfEuDF4fMZZjJGhaNC.A.azi8qfF2yl2GqYf59KgysZqSYwmjrGEV2vm4Ae5M1PGAG7Tgi5lwowBC0yo9wGtA5BbHHBo_9eiEnfgNxxi0Z5JlzyZd3zQ--
+X-Originating-IP: [72.5.68.150]
+Authentication-Results: mta128.mail.ird.yahoo.com  from=about.com; domainkeys=neutral (no sig); from=about.com; dkim=neutral (no  sig)
+Received: from 72.5.68.150  (HELO mx-v8.gm.mail.yahoo.com) (72.5.68.150)
+  by mta128.mail.ird.yahoo.com with SMTP; Wed, 17 Jun 2009 20:45:50 +0000
+Transit-DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=transit_gm2; d=yahoo.goodmailsystems.com;
+  h=X-Originating-IP:X-YahooSRV:X-GoodmailSystems-Canceled:Received:Return-Path:X-GoodmailSystems-Sig:X-GoodmailSystems-Entity:X-GoodmailSystems-Cert:X-GoodmailSystems-Rcpto:X-GoodmailSystems:Received:Received:Message-ID:Date:From:To:Subject:X-Accept-Language:Approved-by:User-Agent:MIME-Version:Content-Type;
+  b=IoY93h5MdL6LTE58JqrwXMwQkGFouvsnrvD0sS9tPaglnb0tGJ2Hm+huL1fkG1LZEOYNUwutatrJCequBm79y3KAoSvrNd8HTPiEwKU3opks3xORcg3jqh1tvp1y8O9XpxJWOX5YslcbXW0dZoiTGUi1fm0jsRmJIKLegL+GilY=  ;
+X-Originating-IP: [10.10.20.222]
+X-YahooSRV: GMSEntity="About.com"
+X-GoodmailSystems-Canceled: 2; h=ycgw35.sjc.mta.yahoo.com; d=20090617T204537; m=2930; p=4
+Received: from unknown (HELO service.goodmailsystems.com) (10.10.20.222)
+  by ycgw35.sjc.mta.yahoo.com with SMTP; 17 Jun 2009 20:45:37 -0000
+X-GoodmailSystems-Sig: gGS1v0F63esO4DqqjcqKHlNXRcfz0K5BFwEHGEOvpG97OPTrwg0gKYd5
+	wwxS6a2R9e4rwJ10rKS9C4vkxq/OhsIyQCulXvquHwf9WuthUVSwMZ5nRlTIuwV+U+9/Bh+m
+X-GoodmailSystems-Entity: About.com
+X-GoodmailSystems-Cert: MIIClTCCAX0CBBAAADwwDQYJKoZIhvcNAQEFBQAwIDEeMBwGA1UEAxM
+	VU0NBOlgtR29vZG1haWxTeXN0ZW1zMB4XDTA5MDQyOTAwMDAwMFoXDTA5MTEzMDAwMDAwMFowgaUxCzA
+	JBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRkwFwY
+	DVQQKExBHb29kbWFpbCBTeXN0ZW1zMRIwEAYDVQQLEwlPcGVyYXRpb24xEjAQBgNVBAMTCU9wZXJhdGl
+	vbjEmMCQGCSqGSIb3DQEJARYXb3BzQGdvb2RtYWlsc3lzdGVtcy5jb20wfDANBgkqhkiG9w0BAQEFAAN
+	rADBoAmEAxT5li+JT1M3WEoHlQwDiaLezWDyY/vubVXMxKF0HG7YzxrMJu6oX6a5XjRPQGTHERgQfJEG
+	Ym42L/njlcQqjfOfJxGUa+Bh8Qd4TB56sBx/Vwni9wPcC9yM5kPsjPnjtAgMBAAEwDQYJKoZIhvcNAQE
+	FBQADggEBAKw+6K8oghWHES8C/d1Ha8bmblTJVCNUZAVCnalNMK72VxlpWDjCGxEMW7I6JCMFFPFwoO6
+	/W3+IzOwzu8UxV4fIUxl9REWaD/qc7Uho89NBBBKGhPQvOH5zWrnL00wZ+Bm6obk/MJ/j/ka8CGAs57l
+	yBLbOP8tqwksQCxIxpIkXV54OgQJiPxKL7OKnzdQBiRHns5q8fRf8UPSMdiJL+ed/aPcb92UOg2GB9WH
+	kzAzdEsiX6r3uSKezFag5CKjSnqs2wFqOgKSJzaNuG7Al7RqcWcOl17+ybXyWORFjRuKZ3TQW1MjoKsy
+	y9prit/YLGTEBmgI732a38utP1cI8Z+c=
+X-GoodmailSystems-Rcpto: vmlemon@yahoo.co.uk
+X-GoodmailSystems: 2; i="1"; 
+	s="00003A0F0000694F000000014A3955F16F0905A10008E9D200000018000027F8"; 
+	e="20090620T204537"; d="20090617T204537"; o="14863"; t="0"; p="4"; 
+	h="D+v8iAkImMeE3ZPX/i4j209mJvc="; b="ov97tpo4aTpfH29mw47pVhIfVV8="; 
+	f="IkFib3V0LmNvbSBDb21wdXRlcnMiIDxuZXdzbGV0dGVyc0BhYm91dC5jb20+";
+	I="001002000";
+Received: from [207.241.148.227] ([207.241.148.227:37675] helo=listserv2.about.com)
+	by service04.goodmailsystems.com (envelope-from <owner-COMPUTERSL*vmlemon**YAHOO*-CO*-UK@listserv2.about.com>)
+	(ecelerity 2.2.2.29 r(23147)) with ESMTP
+	id CB/D4-23420-0F5593A4; Wed, 17 Jun 2009 13:45:36 -0700
+Received: from freelist2 (127.0.0.1) by listserv2.about.com (LSMTP for Windows NT v1.1b) with SMTP id <5.00046048@listserv2.about.com>; Wed, 17 Jun 2009 16:23:50 -0500
+Message-ID: <CB.D4.23420.0F5593A4@service04>
+Date: Wed, 17 Jun 2009 16:12:24 -0500
+From: "About.com Computers" <newsletters@about.com>
+To: vmlemon@YAHOO.CO.UK
+Subject: About Computers: Office 2007: Time Saving Tips
+X-Accept-Language: en
+Approved-by: gethelp@about.com
+User-Agent: AboutSpecial/1.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="1245269504.2554687.76057572"
+
+Your e-mail reader does not support MIME. Please upgrade.
+
+--1245269504.2554687.76057572
+Content-Type: text/plain
+
+
+
+What You Need To Know About Computers
+
+From Paul Gil, your Editor and Guide
+
+
+
+
+
+--------------------------- EDITOR'S NOTE ----------------------------
+
+
+I really like Microsoft Office 2007... it can do so much in the hands of a strong and confident user.  Unfortunately, most people are either daunted by the overwhelming Office features, or they get stuck doing things the long way. If that describes you, let About.com help with some great MS Office tips below...
+
+http://slclk.about.com/?zi=1/mut
+
+
+------------------------- IN THE SPOTLIGHT ---------------------------
+
+
+Work Faster in Office 2007
+
+Do you use Office 2007 at work? Would you like to become an Office 2007 pro?  Here are several <a href="http://slclk.about.com/?zi=1/muj&zu=http%3A%2F%2Fpresentationsoft.about.com%2Fod%2Fpowerpoint2007%2Ftp%2Foffice-2007-time-saving-tips.htm">time-saving tips</a> that will certainly speed up your productivity...
+
+http://slclk.about.com/?zi=1/muj
+
+
+Customize Word 2007
+
+Microsoft Word 2007 is way more powerful than most people need.  But most people are unaware of how to simplify the tool. Things like: customizing the ribbon bar, setting default file format, programming shortcut keys, and changing screen tips. Here are <a href="http://slclk.about.com/?zi=1/muk&zu=http%3A%2F%2Fwordprocessing.about.com%2Fod%2Fmicrosoftword2007%2Ftp%2Fcustomize2007.htm">10 great MS Word tips</a> to make your word processing life faster...
+
+http://slclk.about.com/?zi=1/muk
+
+
+6 Splendid Excel 2007 Tips
+
+Excel is absolutely the best software that Microsoft has ever produced.  It can do more for business people than most people realize.  Did you know that you can create your own custom sheet formats, or duplicate appearances with Format Painter? Have you ever used the Name Box or the CTRL-click method of selecting? If not, check out these <a href="http://slclk.about.com/?zi=1/mul&zu=http%3A%2F%2Fspreadsheets.about.com%2Fod%2Fexceltips%2Ftp%2F090531_tips_excel_2007.htm">Excel user tips here</a>...
+
+http://slclk.about.com/?zi=1/mul
+
+
+
+
+---------------------------- MORE TOPICS -----------------------------
+
+
+Follow Us on Twitter
+
+About Technology GuideSite
+
+http://slclk.about.com/?zi=1/mum
+
+10 Time-Saving Tips for MS Access 2007
+
+Databases GuideSite
+
+http://slclk.about.com/?zi=1/mun
+
+A PDA for Every Operating System
+
+PDAs GuideSite
+
+http://slclk.about.com/?zi=1/muo
+
+Create a Professional Facebook Profile
+
+Personal Web Pages GuideSite
+
+http://slclk.about.com/?zi=1/mup
+
+Free Delphi Source Code
+
+Delphi GuideSite
+
+http://slclk.about.com/?zi=1/muq
+
+Before You Sign Up for a VoIP Service...
+
+Voice Over IP GuideSite
+
+http://slclk.about.com/?zi=1/mur
+
+Linux for Beginners
+
+Linux GuideSite
+
+http://slclk.about.com/?zi=1/mus
+
+
+
+
+
+
+------------------------ Cats Photo Quiz ---------------------------
+
+
+Boy Cat or Girl -- Can You Figure it Out?
+
+Think you can tell a boy cat from a girl cat just by looking at a photo? It may not be as easy as you think: even gender-based color patterns can be misleading. <a href="http://clk.about.com/?zi=1/1]M&amp;zu=http://cats.about.com/library/BoyGirlCatQuiz/blphotoquizboygirl.htm">Click here</a> to take the quiz.<br><br>
+
+http://slclk.about.com/?zi=1/muv
+
+
+
+--------------------------- SUBSCRIPTIONS ----------------------------
+
+
+More Newsletters:
+
+To sign up for more free newsletters on What You Need to Know About your favorite topics, visit:
+
+http://clk.about.com/?zi=4/XR
+
+
+
+You are receiving this newsletter because you subscribed to the About Computers as 'vmlemon@YAHOO.CO.UK'.
+
+If you no longer wish to receive emails from us, please visit: http://about.com/nl/usgs.htm?nl=computersl&e=vmlemon@YAHOO.CO.UK
+
+
+About respects your privacy.
+
+Our Privacy Policy: http://about.com/gi/pages/privacy.htm
+
+
+Our Contact Information: http://ourstory.about.com/contact.htm
+
+249 West 17th Street
+
+New York, NY, 10011
+
+
+
+copyright 2008 About, Inc.
+
+
+Thanks for being a subscriber to the About Computers Newsletter.
+
+To Advertise in this newsletter, visit Be an Advertiser
+
+http://beanadvertiser.about.com/index.htm
+
+
+
+
+--1245269504.2554687.76057572
+Content-Type: text/html; charset="us-ascii"
+
+
+<html>
+  <head>
+    
+    <title>Computers</title>
+  </head>
+  <body bgcolor="#FFFFFF" link="#0073BF" vlink="#0073BF" alink="#0073BF" text="#000000">
+    <table cellpadding="0" cellspacing="0" width="800">
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td width="191">
+                <a href="http://www.about.com/"><img src="http://z.about.com/d/lg/an9.gif" border="0" alt="About.com" width="191" height="60"></a>
+              </td>
+              <td>&nbsp;&nbsp;<a>
+                  <b>
+                    <font face="arial" color="#FF3300" size="5">Computers</font>
+                  </b>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" height="3" bgcolor="#C4C4C4"><img height="1" width="1"></td>
+            </tr>
+          </table>
+          <table cellpadding="3" cellspacing="0" border="0" width="100%">
+            <tr>
+              <td colspan="2">
+                <font face="arial" size="2">
+                  <b>
+                    <a href="#a">In the Spotlight</a>
+                  </b> | <b>
+                    <a href="#c">More Topics</a>
+                  </b> | <b>
+                    <a href="#e"></a>
+                  </b>
+                </font>
+              </td>
+            </tr>
+          </table>
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr>
+              <td valign="top"><img src="http://z.about.com/h/gp/netforbeginners65x65.gif">&nbsp;</td>
+              <td valign="top">
+                <font face="arial" size="2">from <b>Paul Gil</b>
+                  <br>I really like Microsoft Office 2007... it can do so much in the hands of a strong and confident user.  Unfortunately, most people are either daunted by the overwhelming Office features, or they get stuck doing things the long way. If that describes you, let About.com help with some great MS Office tips below...<br>
+                  <br>
+                </font>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" bgcolor="#CCCCCC"><img height="1" width="1"></td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;<br>
+                <a name="a">
+                  <font face="arial" size="3" color="#000000">
+                    <b>In the Spotlight</b>
+                  </font>
+                </a>
+              </td>
+            </tr>
+          </table>
+          <table cellpadding="4" cellspacing="0" border="0" width="100%">
+            <tr>
+              <td valign="top">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td colspan="2" valign="top">
+                      <font face="arial" size="2">
+                        <b>
+                          <a href="http://slclk.about.com/?zi=1/muj">Work Faster in Office 2007</a>
+                        </b>
+                        <br>Do you use Office 2007 at work? Would you like to become an Office 2007 pro?  Here are several <a href="http://slclk.about.com/?zi=1/muj&zu=http%3A%2F%2Fpresentationsoft.about.com%2Fod%2Fpowerpoint2007%2Ftp%2Foffice-2007-time-saving-tips.htm">time-saving tips</a> that will certainly speed up your productivity...<br>
+                        <br>&nbsp;</font>
+                    </td>
+                    <td rowspan="3" valign="top">
+                      <table cellpadding="0" cellspacing="0" border="0" width="200">
+                        <tr>
+                          <td rowspan="2">&nbsp;&nbsp;&nbsp;</td>
+                          <td rowspan="2" width="1" bgcolor="#CCCCCC"><img height="1" width="1"></td>
+                          <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="c">
+                              <font face="arial" size="2" color="#000000">
+                                <b>More Topics</b>
+                              </font>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <font face="arial" size="2" color="#FD340A">
+                              <ul type="square">
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/mum">Follow Us on Twitter</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">About Technology</font>
+                                </li>
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/mun">10 Time-Saving Tips for MS Access 2007</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">Databases</font>
+                                </li>
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/muo">A PDA for Every Operating System</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">PDAs</font>
+                                </li>
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/mup">Create a Professional Facebook Profile</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">Personal Web Pages</font>
+                                </li>
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/muq">Free Delphi Source Code</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">Delphi</font>
+                                </li>
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/mur">Before You Sign Up for a VoIP Service...</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">Voice Over IP</font>
+                                </li>
+                                <li>
+                                  <b>
+                                    <a href="http://slclk.about.com/?zi=1/mus">Linux for Beginners</a>
+                                  </b>
+                                  <br>
+                                  <font color="#999999">Linux</font>
+                                </li>
+                              </ul>
+                            </font>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" valign="top">
+                      <font face="arial" size="2">
+                        <b>
+                          <a href="http://slclk.about.com/?zi=1/muk">Customize Word 2007</a>
+                        </b>
+                        <br>Microsoft Word 2007 is way more powerful than most people need.  But most people are unaware of how to simplify the tool. Things like: customizing the ribbon bar, setting default file format, programming shortcut keys, and changing screen tips. Here are <a href="http://slclk.about.com/?zi=1/muk&zu=http%3A%2F%2Fwordprocessing.about.com%2Fod%2Fmicrosoftword2007%2Ftp%2Fcustomize2007.htm">10 great MS Word tips</a> to make your word processing life faster...<br>
+                        <br>&nbsp;</font>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" valign="top">
+                      <font face="arial" size="2">
+                        <b>
+                          <a href="http://slclk.about.com/?zi=1/mul">6 Splendid Excel 2007 Tips</a>
+                        </b>
+                        <br>Excel is absolutely the best software that Microsoft has ever produced.  It can do more for business people than most people realize.  Did you know that you can create your own custom sheet formats, or duplicate appearances with Format Painter? Have you ever used the Name Box or the CTRL-click method of selecting? If not, check out these <a href="http://slclk.about.com/?zi=1/mul&zu=http%3A%2F%2Fspreadsheets.about.com%2Fod%2Fexceltips%2Ftp%2F090531_tips_excel_2007.htm">Excel user tips here</a>...<br>
+                        <br>&nbsp;</font>
+                    </td>
+                  </tr>
+                </table>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td>&nbsp;<br>
+                      <font face="arial" size="1" color="#CCCCCC">
+                        <b>Sponsored Links</b>
+                      </font>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#CCCCCC"><img height="1" width="1"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <map name="google_ad_map_Yt1jQsy_JZ-KOf75hdsD">
+                        <area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/Yt1jQsy_JZ-KOf75hdsD/computersl1245265200?pos=0" coords="2,4,550,60" target="_blank">
+                        <area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/Yt1jQsy_JZ-KOf75hdsD/computersl1245265200?pos=1" coords="2,60,550,116" target="_blank">
+                        <area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/Yt1jQsy_JZ-KOf75hdsD/computersl1245265200?pos=2" coords="2,116,550,172" target="_blank">
+                        <area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/Yt1jQsy_JZ-KOf75hdsD/computersl1245265200?pos=3" coords="2,172,550,220" target="_blank">
+                      </map><img src="http://imageads.googleadservices.com/pagead/ads?output=png&oe=utf8&format=550x220_img&num_ads=3&client=ca-about-newsletters_png&channel=about_superlists_computersl&hl=en&adsafe=high&url=http%3A%2F%2Fspecials.about.com%2Fservice%2Fnewsletters%2Fcomputersl%2F1245265200.htm&issue=computersl1245265200&color_bg=FFFFFF&color_border=FFFFFF&color_link=330066&color_text=000000&color_url=808080&good_ads_only=on&backfill=1&cuid=Yt1jQsy_JZ-KOf75hdsD" usemap="#google_ad_map_Yt1jQsy_JZ-KOf75hdsD" border="0"></td>
+                  </tr>
+                </table>
+                <table cellpadding="4" cellspacing="0" border="0" width="100%">
+                  <tr>
+                    <td>&nbsp;<br>
+                      <a name="e">
+                        <font face="arial" size="3" color="#000000">
+                          <b>Cats Photo Quiz</b>
+                        </font>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#CCCCCC"><img height="1" width="1"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <font face="arial" size="2">
+                        <a href="http://slclk.about.com/?zi=1/muv">Boy Cat or Girl -- Can You Figure it Out?</a>
+                        <br>Think you can tell a boy cat from a girl cat just by looking at a photo? It may not be as easy as you think: even gender-based color patterns can be misleading. <a href="http://clk.about.com/?zi=1/1]M&amp;zu=http://cats.about.com/library/BoyGirlCatQuiz/blphotoquizboygirl.htm">Click here</a> to take the quiz.<br><br></font>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td valign="top" align="left">
+	<font face="arial" size="2" color="#000000">
+  <b>Computers Ads<BR>
+  </b>
+</font>
+<font face="arial" size="2" color="#FD340A">
+  <ul type="square" compact>
+    <LI>
+      <b>
+        <a href="http://www.about.com/z/js/o.htm?k=Deaf%20Cell%20Phones&d=Deaf%20Cell%20Phones&amp;r=Deaf%20Cell%20Phones&amp;nl=1">Deaf Cell Phones</a>
+      </b>
+    </LI>
+    <LI>
+      <b>
+        <a href="http://www.about.com/z/js/o.htm?k=Prepaid%20Phones&d=Prepaid%20Phones&amp;r=Prepaid%20Phones&amp;nl=1">Prepaid Phones</a>
+      </b>
+    </LI>
+    <LI>
+      <b>
+        <a href="http://www.about.com/z/js/o.htm?k=Cellular%20Phone%20Deals&d=Cellular%20Phone%20Deals&amp;r=Cellular%20Phone%20Deals&amp;nl=1">Cellular Phone Deals</a>
+      </b>
+    </LI>
+    <LI>
+      <b>
+        <a href="http://www.about.com/z/js/o.htm?k=Wireless%20Phones&d=Wireless%20Phones&amp;r=Wireless%20Phones&amp;nl=1">Wireless Phones</a>
+      </b>
+    </LI>
+    <LI>
+      <b>
+        <a href="http://www.about.com/z/js/o.htm?k=US%20Cellular%20Prepaid&d=US%20Cellular%20Prepaid&amp;r=US%20Cellular%20Prepaid&amp;nl=1">US Cellular Prepaid</a>
+      </b>
+    </LI>
+  </ul>
+</font>
+
+	<font face="arial" size="2" color="#999999">Advertisement</font>
+                <br>
+                <a href="http://slclk.about.com/?zi=1/muu" target="_top"><img src="http://ad.doubleclick.net/ad/newsletters.about.com/_computersl;site=computersl;kw=;chan=;sz=160x600;ord=2" height="600" width="160" border="0"></a>
+              </td>
+            </tr>
+          </table>
+          <table cellpadding="3" cellspacing="0" border="0" width="100%">
+            <tr>
+              <td colspan="3">&nbsp;<br>&nbsp;<br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" bgcolor="#F8F8F8">
+                <font face="arial" size="2">
+                  <b>Visit Related About GuideSites:</b>
+                </font>
+              </td>
+            </tr><tr><td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://businesssoft.about.com">Business Software</a>
+              </font>
+            </td>
+            <td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://email.about.com">Email</a>
+              </font>
+            </td>
+            <td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://netconference.about.com">Internet Conferencing</a>
+              </font>
+            </td><tr><tr><td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://personalweb.about.com">Personal Web Pages</a>
+              </font>
+            </td>
+            <td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://shareware.about.com">Shareware/Freeware</a>
+              </font>
+            </td>
+            <td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://webclipart.about.com">Web Clip Art</a>
+              </font>
+            </td><tr><tr><td bgcolor="#F8F8F8">
+              <font face="arial" size="2">
+                <a href="http://websearch.about.com">Web Search</a>
+              </font>
+            </td>
+            <td bgcolor="#F8F8F8">&nbsp;</td>
+            <td bgcolor="#F8F8F8">&nbsp;</td><tr><form method="get" action="http://search.about.com/fullsearch.htm">
+              <tr>
+                <td colspan="3" bgcolor="#cccccc">
+                  <font face="arial" size="2">
+                    <b>Search About&nbsp;</b>
+                    <input type="text" name="terms" size="25" maxlength="100" value="">&nbsp;<input type="image" src="http://z.about.com/d/bt/s1.gif" align="top" border="0" name="action">
+                  </font>
+                </td>
+              </tr>
+            </form>
+            <tr>
+              <td colspan="3">
+                <font face="arial" size="2">
+                  <p>&nbsp;<br>
+                    <a href="http://clk.about.com/?zi=4/XR">Sign up</a> for more free newsletters on favorite topics.</p>
+                  <p>You are receiving this newsletter because you subscribed to the About Computers newsletter as vmlemon@YAHOO.CO.UK. If you wish to change or remove your email address, please visit:<br>
+                    <a href="http://www.about.com/nl/usgs.htm?nl=computersl&e=vmlemon@YAHOO.CO.UK">http://www.about.com/nl/usgs.htm?nl=computersl&e=vmlemon@YAHOO.CO.UK</a>
+                  </p>
+                  <p>About respects your privacy. <a href="http://www.about.com/gi/pages/privacy.htm">Our Privacy Policy</a>.</p>
+                  <p>
+                    <a href="http://ourstory.about.com/contact.htm">Our Contact Information</a>.<br>249 West 17th Street<br>New York, NY, 10011<br>
+                    <br>&#169; 2008 About, Inc.</p>
+                </font>
+              </td>
+            </tr>
+          </table><img src="http://pixel3.about.com/mp/pixel/pixel.cgi?partner=computersl_20090617" height="1" width="1"></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+--1245269504.2554687.76057572--
+

@@ -1,0 +1,197 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: tyson.key@gmail.com
+Received: by 10.100.45.2 with SMTP id s2cs15669ans;
+        Thu, 23 Jul 2009 03:20:53 -0700 (PDT)
+Received: by 10.151.9.9 with SMTP id m9mr2826442ybi.262.1248344452106;
+        Thu, 23 Jul 2009 03:20:52 -0700 (PDT)
+DomainKey-Status: bad (test mode)
+Received-SPF: softfail (google.com: best guess record for domain of transitioning unknown does not designate 217.146.182.177 as permitted sender) client-ip=217.146.182.177;
+Message-ID: <4a683983.2908c00a.4751.1491MFETCHER_ADDED@google.com>
+Received: by 10.192.8.41 with POP3 id 41mf376209ywh.70;
+        Thu, 23 Jul 2009 03:20:51 -0700 (PDT)
+X-Gmail-Fetch-Info: vmlemon@yahoo.co.uk 2 pop.mail.yahoo.co.uk 995 vmlemon@yahoo.co.uk
+X-Apparently-To: vmlemon@yahoo.co.uk via 87.248.110.212; Thu, 23 Jul 2009 10:11:06 +0000
+X-YMailISG: ku7yrfUWLDs2BzoyvJ7n7I9UnAv_6Ew2nPC7ArT9szLTxuKLoIHylYBw3q.fGc8Xau1.RVqBSvbIBp65TmZ.fxysk9AgyqlJpun3jpM6TCLKXxdn0dDJlpnEfuKtXQuxWPh8DH4j4e0dKUN0yRQsl1W9umUBImubkxtxO9G9odfFJDblvOVfZ9.XFfR3NFneABVkJCKUp_lXszQDZlMRag61AlvetoJdyrgL1Kw9TstGspjLzyKPpiDsi2kL5U8OShTLUbR.05EHi4Sq4hQMW9yOfd4PiGBshYrmy6YPfyp8cWKqElMXk4dq3cnDP1O0cz0yWNtdJobYFJgKv.t.Dv6u3FqhF.5RuXKPERAbxQWV.Uu9hUhuh6Rjtv4rwWM9NSdT
+X-Originating-IP: [217.12.4.144]
+Authentication-Results: mta109.mail.ird.yahoo.com  from=yahoo-inc.com; domainkeys=pass (ok); from=yahoo-inc.com; dkim=pass (ok)
+Received: from 217.12.4.144  (HELO n2a.bullet.ukl.yahoo.com) (217.12.4.144)
+  by mta109.mail.ird.yahoo.com with SMTP; Thu, 23 Jul 2009 10:11:06 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo-inc.com; s=ginc1024; t=1248343866; bh=wQUh6U/OomkVIpjOnre88UjPNb0DQWIZzw87i1C6wmk=; h=Received:Received:Received:Date:Received:To:From:Subject:Reply-To:Errors-To:Return-Path:MIME-Version:Content-Type:Content-Transfer-Encoding:X-yahoo-newman-property:X-RocketSRV; b=dzNvte6wlMiuRvflYAsYyiV2dIPeAKIFyfE9OG2m2CQqgR686z/hmdG++fKEL8GMes1aYUPquMBsXPXBE5YRbOjNibC2+TWUePCZwgRSgWDMaHjIvcMPESnVFA7mHXv144AJrX+ZCYdb6Gx1OSLDTO4oTezsu9L17+qnbc1KBk0=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=ginc1024; d=yahoo-inc.com;
+	b=JXBBlqYrYPaM5puHrBZIqOf+GW0GEuqoibbVMFRmQozOBWuEtJgDuW784orjCafcZgfAJVtPvBwMVYEdyrC635x/DVcls0ngStcf8ssbV+tgyCt2LC/x36mxz4I5T+zF5Gh+oIGMGlh4ojGkVARlJKiZKZNq+JY+wJ7jzwspu7I=;
+Received: from [217.146.182.177] by n2.bullet.ukl.yahoo.com with NNFMP; 23 Jul 2009 10:11:06 -0000
+Received: from [69.147.84.145] by t3.bullet.ukl.yahoo.com with NNFMP; 23 Jul 2009 10:11:05 -0000
+Received: from [68.180.220.148] by t8.bullet.mail.sp1.yahoo.com with NNFMP; 23 Jul 2009 10:11:05 -0000
+Date: 23 Jul 2009 03:11:05 -0700
+Received: from [127.0.0.1] by delivery2.alerts.sp1.yahoo.com with NNFMP; 23 Jul 2009 10:11:05 -0000
+To: vmlemon@yahoo.co.uk
+From: "Yahoo! Alerts" <alerts@yahoo-inc.com>
+Subject: Y! Alert: @vmlemon - Twitter Search
+Reply-To: "Yahoo! Alerts" <alerts-reply@yahoo-inc.com>
+Errors-To: alerts-reply@yahoo-inc.com
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://us.i1.yimg.com/us.yimg.com/lib/common/fonts_200502080901.css" />
+<title>Yahoo! Blog Alert</title>
+</head>
+<style>
+.headerTitle { font-family: Arial,sans-serif; font-size: 114%; font-weight: bold; margin-top: 10px; padding-top: 0px; }
+#alertContent { width: 390px; float: left; font-family: Arial, sans-serif; font-size: 85%; color: #333333; line-height: 129%; margin: 0px; padding: 0px; }
+#alertContent #rssTOC { font-family: Arial,sans-serif; font-size: 114%; }
+#adBar { width: 175px; float: right; }
+.updated { background-color: #effada; }
+#crossAds { width: 155px; background-color: #effada; overflow: hidden; margin: 0px; padding: 0px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; font-family: Arial, sans-serif; }
+#crossAds p { font-size: 85%; }
+#crossAdsTitle { color: #666666; font-size: 77%; font-family: Verdana,sans-serif; margin-top: 10px; padding-top: 0px; }
+#updateAd { width: 155px; background-color: #d2edb6; overflow: hidden; margin: 0px; padding: 0px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; font-family: Arial, sans-serif; }
+#updateAd .updateAdTitle { color: #ff9900; font-weight: 600; font-size: 85%; margin-top: 10px; margin-bottom: 10px; }
+#updateAd p { font-size: 77%; margin: 0px; padding: 0px; }
+#updateAd img { margin-top: 40px; }
+.blogDate { color: #999999; line-height: 174%; font-size: 77%; vertical-align: middle; font-family: Verdana,sans-serif; }
+.blogDateUpdated { color: #57a2bc; line-height: 174%; font-size: 77%; vertical-align: middle; font-family: Verdana,sans-serif; font-weight: 600; }
+</style>
+<body style="background: #ffffff; font-family: Arial, sans-serif; font-size: 92%; ">
+<!--
+IF YOU CAN READ THIS MESSAGE, you are not using
+an email reader that supports HTML.
+-->
+<div style="width: 575px; border: 1px solid white; ">
+
+  <span style="font-family: Arial, sans-serif; font-size: 136%; color: #000000; font-weight: bold; float: left; ">Yahoo! Alerts</span>
+
+  <span style="font-family: Verdana, sans-serif; font-size: 77%; float: right; vertical-align: middle; ">
+  <br style="font-size: 3pt; "/>
+
+<a href="http://us.rd.yahoo.com/alerts/email/html/feed/myalerts/*http://alerts.yahoo.com/main.php?view=my_alerts">My Alerts</a></span>
+  <span style="font-size: 16pt; clear: both; "></span>
+
+   <div style="clear: both; "></div>
+
+   <div style="background-color: #ffffff; height: 2px; font-size: 0px; "></div>
+   <div style="border-top: 1px solid #458ca8; font-size: 0px; ">
+      <div style="background-color: #d2edb6; height: 3px; font-size: 0px; "></div>
+      <div style="background-color: #ffffff; height: 1px; font-size: 0px; "></div>
+      <div style="background-color: #effada; height: 6px; font-size: 0px; "></div>
+   </div>
+</div>
+
+<a name="start"> </a>
+<div style="width: 575px; ">
+<div id="alertContent"><p class="headerTitle">
+The latest from <a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3aXIwYTViBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMw/SIG=11mgjc6cn/**http%3A//search.twitter.com/search%3Fq=%2540vmlemon">@vmlemon - Twitter Search</a></p>
+<ul id="rssTOC">
+<li><a href="#item0">@vmlemon Yeah would make my life so much easier.</a></li>
+<li><a href="#item1">@vmlemon &#39;s adventures setting a Google Wave server convinces me that Server Apps really should ship as small footprint VM&#39;s</a></li>
+<li><a href="#item2">@vmlemon aah, yay, they use SRV records ^_^ well if you want, we can set up one together at wave.dazjorz.com or so. :D</a></li>
+<li><a href="#item3">@vmlemon how did you get the Google Wave test suite?! :O</a></li>
+<li><a href="#item4">Can Ubuntu Linux Close the Digital Divide | The VAR Guy http://tinyurl.com/69rx97 (via @OneRiot): Go Ubuntu! @gramgrab @vmlemon</a></li>
+<li><a href="#item5">@vmlemon nice :)</a></li>
+<li><a href="#item6">@vmlemon #puredarwin irc?</a></li>
+<li><a href="#item7">@vmlemon You don&#39;t have to tell me - I&#39;ve lived in Manchester! :o)</a></li>
+<li><a href="#item8">@vmlemon come say hello if you&#39;re at Symbian HQ!</a></li>
+<li><a href="#item9">@vmlemon Burial me think ...</a></li>
+<li><a href="#item10">@vmlemon interrupts!!!!11 :D</a></li>
+<li><a href="#item11">@vmlemon Hey, that&#39;s just awesome. Paul has taken over the community outreach job since I&#39;m over my head in code. He will appreciate that.</a></li>
+<li><a href="#item12">@vmlemon: AtSymbolLink?</a></li>
+<li><a href="#item13">@vmlemon @OpenLINA is resting - getting bugs out and setting up 64 bit, Win2008, and gcc-4.4 Linux builds. Press release with beta...</a></li>
+<li><a href="#item14">@vmlemon: My code even detects negative numbers and make them positive by x=x*(-1)! (Needed for making counting easy)</a></li>
+</ul><hr />
+<table cellspacing="0" cellpadding="0" border="0" width="100%" style="font-family: Arial,sans-serif; font-size: 114%; ">
+<tr><td><a name="item0"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11jc7engh/**http%3A//twitter.com/rbonini/statuses/2782707392">@vmlemon Yeah would make my life so much easier.</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon Yeah would make my life so much easier.</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item1"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11jvj2f46/**http%3A//twitter.com/rbonini/statuses/2781811954">@vmlemon &#39;s adventures setting a Google Wave server convinces me that Server Apps really should ship as small footprint VM&#39;s</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon &#39;s adventures setting a Google Wave server convinces me that Server Apps really should ship as small footprint VM&#39;s</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item2"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11jgrhgon/**http%3A//twitter.com/dazjorz/statuses/2776793770">@vmlemon aah, yay, they use SRV records ^_^ well if you want, we can set up one together at wave.dazjorz.com or so. :D</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon aah, yay, they use SRV records ^_^ well if you want, we can set up one together at wave.dazjorz.com or so. :D</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item3"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11j21iieo/**http%3A//twitter.com/dazjorz/statuses/2776597890">@vmlemon how did you get the Google Wave test suite?! :O</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon how did you get the Google Wave test suite?! :O</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item4"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11kpk44ep/**http%3A//twitter.com/pjwaffle/statuses/2772964330">Can Ubuntu Linux Close the Digital Divide | The VAR Guy http://tinyurl.com/69rx97 (via @OneRiot): Go Ubuntu! @gramgrab @vmlemon</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>Can Ubuntu Linux Close the Digital Divide | The VAR Guy http://tinyurl.com/69rx97 (via @OneRiot ): Go Ubuntu! @gramgrab @vmlemon</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item5"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11jcmvadu/**http%3A//twitter.com/hideout/statuses/2699342917">@vmlemon nice :)</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon nice :)</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item6"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11j637224/**http%3A//twitter.com/hideout/statuses/2699126415">@vmlemon #puredarwin irc?</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon #puredarwin irc?</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item7"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11osni8fu/**http%3A//twitter.com/fluffymaccoy/statuses/2684857151">@vmlemon You don&#39;t have to tell me - I&#39;ve lived in Manchester! :o)</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon You don&#39;t have to tell me - I&#39;ve lived in Manchester! :o)</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item8"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11otbvqbi/**http%3A//twitter.com/fluffymaccoy/statuses/2676394532">@vmlemon come say hello if you&#39;re at Symbian HQ!</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon come say hello if you&#39;re at Symbian HQ!</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item9"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11l4mb1sm/**http%3A//twitter.com/CocoaGeek/statuses/2672105427">@vmlemon Burial me think ...</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon Burial me think ...</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item10"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11j6vo02h/**http%3A//twitter.com/hideout/statuses/2670950733">@vmlemon interrupts!!!!11 :D</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon interrupts!!!!11 :D</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item11"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11hkqdfrh/**http%3A//twitter.com/saill/statuses/2644964605">@vmlemon Hey, that&#39;s just awesome. Paul has taken over the community outreach job since I&#39;m over my head in code. He will appreciate that.</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon Hey, that&#39;s just awesome. Paul has taken over the community outreach job since I&#39;m over my head in code. He will appreciate that.</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item12"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11mcrq6hm/**http%3A//twitter.com/Natanael_L/statuses/2636388294">@vmlemon: AtSymbolLink?</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon : AtSymbolLink?</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item13"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11hnn1258/**http%3A//twitter.com/saill/statuses/2636131949">@vmlemon @OpenLINA is resting - getting bugs out and setting up 64 bit, Win2008, and gcc-4.4 Linux builds. Press release with beta...</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon @OpenLINA is resting - getting bugs out and setting up 64 bit, Win2008, and gcc-4.4 Linux builds. Press release with beta...</td></tr>
+<tr><td>&nbsp; </td></tr>
+<tr><td><a name="item14"></a><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTI3YTBqZWNxBFJfYWlkAwRSX2RtbgN0d2l0dGVyLmNvbQRSX2ZpZANlZjI2OGUzMGNmNzRlNGU0Yjg5YThlYTM3NTcyZGI1ZQRSX2x0cAMx/SIG=11md9sd75/**http%3A//twitter.com/Natanael_L/statuses/2635997929">@vmlemon: My code even detects negative numbers and make them positive by x=x*(-1)! (Needed for making counting easy)</a></td>
+<td valign="top" style="padding-left: 5px; "><a href="#start">Top</a></td>
+</tr><tr><td>@vmlemon : My code even detects negative numbers and make them positive by x=x*(-1)! (Needed for making counting easy)</td></tr>
+<tr><td>&nbsp; </td></tr>
+</table>
+
+</div>
+<div id="adBar">
+<p id="crossAdsTitle">CREATE MORE ALERTS:</p>
+<div id="crossAds">
+
+<p><a href="http://us.rd.yahoo.com/alerts/email/html/feed/createmore/auctions/*http://alerts.yahoo.com/config/set_notification?.t=a&.done=http://alerts.yahoo.com/main.php?view=my_alerts">Auctions</a> - Find out when new auctions are posted</p>
+<p><a href="http://us.rd.yahoo.com/alerts/email/html/feed/createmore/horoscopes/*http://alerts.yahoo.com/main.php?view=create_horoscope&.done=http://alerts.yahoo.com/main.php?view=my_alerts">Horoscopes</a> - Receive your daily horoscope</p>
+<p><a href="http://us.rd.yahoo.com/alerts/email/html/feed/createmore/music/*http://music.yahoo.com/musicengine/optin/?.done=http://alerts.yahoo.com/main.php?view=my_alerts">Music</a> - Get the newest Album Releases, Playlists and more</p>
+<p><a href="http://us.rd.yahoo.com/alerts/email/html/feed/createmore/news/*http://alerts.yahoo.com/main.php?view=create_news_step1&.done=http://alerts.yahoo.com/main.php?view=my_alerts">News</a> - Only the news you want, delivered!</p>
+<p><a href="http://us.rd.yahoo.com/alerts/email/html/feed/createmore/stocks/*http://alerts.yahoo.com/main.php?view=create_stock_step1&.done=http://alerts.yahoo.com/main.php?view=my_alerts">Stocks</a> - Stay connected to the market with price quotes and more</p>
+<p><a href="http://us.rd.yahoo.com/alerts/email/html/feed/createmore/weather/*http://alerts.yahoo.com/main.php?view=create_weather&.done=http://alerts.yahoo.com/main.php?view=my_alerts">Weather</a> - Get today's weather conditions</p>
+
+</div>
+<br /><br />
+</div><div style="clear: both; "></div>
+</div><br />
+<table border=0 cellpadding=0 cellspacing=0 width=545>
+<tr>
+<td><font face=arial size=-2>
+You received this email because you subscribed to Yahoo! Alerts.
+Use <a href="http://us.rd.yahoo.com/alerts/b/email/unsubscribe/*http://alerts.yahoo.com/unsubscribe.php?id=v7kNKKk5NbttnjiUQvsgNuY33KMYUTyvgf.cAHUoWj4dYrzPQe6Re70YyOZbudrSLa85EENeJ0u5N2kwMzyxkVnRdv_CShk-">this link to unsubscribe</a> from this alert.
+To change your communications preferences for other Yahoo! business lines, please visit your <a href="http://login.yahoo.com/config/login_verify2?.done=http://subscribe.yahoo.com/showaccount">Marketing Preferences</a>.
+To learn more about Yahoo!'s use of personal information, including the use of <a href="http://info.yahoo.com/privacy/us/yahoo/webbeacons/details.html">web beacons</a> in HTML-based email, please read our <a href="http://info.yahoo.com/privacy/us/yahoo/alerts/details.html">Privacy Policy</a>.
+Yahoo! is located at 701 First Avenue, Sunnyvale, CA 94089. 
+</font></td>
+</tr>
+</table>
+<img alt="" src="http://adserver.yahoo.com/l?M=/S=97169352:Z/A=/rand=1248343865" height="1" width="1" />
+</body>
+</html>
+
+
