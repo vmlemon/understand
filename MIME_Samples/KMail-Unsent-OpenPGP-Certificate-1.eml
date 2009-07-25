@@ -1,0 +1,60 @@
+                                                                                                                                                                                                                                                               
+From: Tyson Key <tyson.key@house404.co.uk>
+X-KMail-Transport: GMail SMTP
+To: tyson.key@gmail.com,
+ tyson.key@house404.co.uk
+Subject: My new OpenPGP certificate
+Date: Wed, 1 Jul 2009 11:07:57 +0100
+User-Agent: KMail/1.11.3 (Linux/2.6.28-0.131.rc8.git4.fc11.i686; KDE/4.2.3; i686; ; )
+X-KMail-QuotePrefix: >
+MIME-Version: 1.0
+Content-Type: Multipart/Mixed;
+  boundary="Boundary-00=_+VzSKek5fIP06qA"
+Message-Id: <200907011107.58339.tyson.key@house404.co.uk>
+Status: R
+X-Status: NQ
+X-KMail-EncryptionState:  
+X-KMail-SignatureState:  
+X-KMail-MDN-Sent:  
+
+--Boundary-00=_+VzSKek5fIP06qA
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Please find attached my new OpenPGP certificate.
+
+--Boundary-00=_+VzSKek5fIP06qA
+Content-Type: application/pgp-keys;
+  name="57B993DFE4F959961DAB17EB87AEE60A3144E4E9.asc"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="57B993DFE4F959961DAB17EB87AEE60A3144E4E9.asc"
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.10 (GNU/Linux)
+
+mQGiBEpLNVIRBAC4fLZZedLPkNYhxz3zlxg5+iBy4UQxDIWlrW15MnQSMvCUYvEe
+uguxTp9z7Wq/yVhnz86afMEYpB7PcTjTwqU6s7vSvrAzUMxNEVgDXZlESphGKkrX
+uaLdgufKp4/nesKkGqeHqJ5ANZWYSHJXu438n1eKPMrcTfMbNYRLoDklawCg0oZx
+UMpkG8s4JlFvbjXHtoslvjUD+QGRHcWWnEJzBYrrcRFBtQ23K+HSqporRN2LTbMw
+9TNUQFPYAjkKKXhtLzEAKpR9m16P9dvYKVEFRto5kchA1ep8GUM7feQX/TQC6KyX
+aFSmUvwXcrB2/Ve+P0zaS4HFCqQ3UiarbVJ8kE6P4HpwwUBtdy4at7whPm99/6ks
+Hn17A/0SfSfyeKpxUAGci9043yFSVpLHQbqanCWnSVMnNBldyHcQUBbf4f9FB4D+
+nebal2E3cC6/bxkrE9dwbp+MFzIE0Dyfq0GYXMvedUM8Nj/CKMV6nyaZgS714p3L
+qQcuwq8n/q55qu2h+8tIPYS8lAx4ORdWgO7r/VKa1ig6Oa5YPLQfVHlzb24gS2V5
+IDx0eXNvbi5rZXlAZ21haWwuY29tPohgBBMRAgAgBQJKSzVSAhsjBgsJCAcDAgQV
+AggDBBYCAwECHgECF4AACgkQh67mCjFE5Onu+QCgngqI5S9k/bEpRR5Q1lFpDvcp
+UmkAoJpPJR0DPD1jz86yNpxS4L9Jq4iwuQENBEpLNVIQBACsi9olwZDNBudH+OX0
+owmueM26ZuLDqAkOxRiMzrXaHO9BlYOSqz1lSOldlKt+eRBoVgCrjHRnsKbokl4j
+zlSMMtSKNMwQbya3gdFElEDEe8CjjNXoPRZw3FnhKkz7utNX7HbYxDkcxdsEzyum
+YtymRlzRp0QrPe0UOLQndYljqwADBgP/V9OzAmgbjM2sawnJ/afOZa9Qvd81LLud
+vPnGhyu6V59sbqg5i8ITy/Xcopj82gUCnbAlLQ1gXc2aIDyxnhi1nznuQUomqs4n
+cAYGeFnQQYpuol51hubmRNchBvs3EzYiwUzWGjzL8QFbbIIS4zunu9p3t959tn01
+JQTHvnyknsiISQQYEQIACQUCSks1UgIbDAAKCRCHruYKMUTk6YToAKCOWoL5Ntve
+kvTowV7omnVxP9n8DwCgjeZmVW91+hWj/yOstB4ic6CSm2Y=
+=sHO6
+-----END PGP PUBLIC KEY BLOCK-----
+
+--Boundary-00=_+VzSKek5fIP06qA--
