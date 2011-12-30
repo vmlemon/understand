@@ -1,0 +1,11 @@
+--- pcsclite.c	2010-07-01 04:54:12.000000000 +0100
++++ pcsclitef.c	2011-12-30 17:20:56.423070738 +0000
+@@ -241,7 +241,7 @@
+   {"FILE_NOT_FOUND",	SCARD_E_FILE_NOT_FOUND,	"The identified file does not exist in the smart card."}, 
+   {"ICC_CREATEORDER",	SCARD_E_ICC_CREATEORDER,"The requested order of object creation is not supported."},
+   {"ICC_INSTALLATION",	SCARD_E_ICC_INSTALLATION,"No primary provider can be found for the smart card."},
+-  {"INSERTED_CARD",	SCARD_W_INSERTED_CARD,	"Not Documented in PC/SC Lite"},
++//  {"INSERTED_CARD",	SCARD_W_INSERTED_CARD,	"Not Documented in PC/SC Lite"},
+   {"INSUFFICIENT_BUFFER",SCARD_E_INSUFFICIENT_BUFFER,"The data buffer to receive returned data is too small for the returned data."},
+   {"INTERNAL_ERROR",	SCARD_F_INTERNAL_ERROR,	"An internal consistency check failed."},
+   {"INVALID_ATR",	SCARD_E_INVALID_ATR,	"An ATR obtained from the registry is not a valid ATR string."},
