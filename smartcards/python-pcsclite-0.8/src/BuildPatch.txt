@@ -4,8 +4,19 @@
    {"FILE_NOT_FOUND",	SCARD_E_FILE_NOT_FOUND,	"The identified file does not exist in the smart card."}, 
    {"ICC_CREATEORDER",	SCARD_E_ICC_CREATEORDER,"The requested order of object creation is not supported."},
    {"ICC_INSTALLATION",	SCARD_E_ICC_INSTALLATION,"No primary provider can be found for the smart card."},
--  {"INSERTED_CARD",	SCARD_W_INSERTED_CARD,	"Not Documented in PC/SC Lite"},
-+//  {"INSERTED_CARD",	SCARD_W_INSERTED_CARD,	"Not Documented in PC/SC Lite"},
+-//  {"INSERTED_CARD",	SCARD_W_INSERTED_CARD,	"Not Documented in PC/SC Lite"},
++  {"INSERTED_CARD",	SCARD_W_INSERTED_CARD,	"Not Documented in PC/SC Lite"},
    {"INSUFFICIENT_BUFFER",SCARD_E_INSUFFICIENT_BUFFER,"The data buffer to receive returned data is too small for the returned data."},
    {"INTERNAL_ERROR",	SCARD_F_INTERNAL_ERROR,	"An internal consistency check failed."},
    {"INVALID_ATR",	SCARD_E_INVALID_ATR,	"An ATR obtained from the registry is not a valid ATR string."},
+@@ -861,8 +861,8 @@
+     goto error_exit;
+   if (card->context == NULL)
+     rv = SCARD_E_INVALID_HANDLE;
+-//  else
+-//    rv = SCardCancelTransaction(card->hCard);
++  else
++    rv = SCardCancelTransaction(card->hCard);
+   if (scardException(rv) == -1)
+     goto error_exit;
+   retval = ref(Py_None);
