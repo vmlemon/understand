@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<cardtree>
+  <node>
+    <attr name="classname">card</attr>
+    <attr name="label">EMV</attr>
+    <node>
+      <attr name="classname">block</attr>
+      <attr name="label">cold ATR</attr>
+      <attr name="size">22</attr>
+      <attr name="val">8:3B9F95801F438031E073362113574A330E10314100B0</attr>
+    </node>
+    <node>
+      <attr name="classname">block</attr>
+      <attr name="label">cpcl data</attr>
+      <attr name="id">9F7F</attr>
+      <attr name="size">42</attr>
+      <attr name="val">8:42500010A00D7207010092260003AA9525E24252923513429330167393300102FFFF167393300102FFFF</attr>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC Fabricator</attr>
+        <attr name="id">0</attr>
+        <attr name="val">8:4250</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC Type</attr>
+        <attr name="id">2</attr>
+        <attr name="val">8:0010</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Operating System Provider Identifier</attr>
+        <attr name="id">4</attr>
+        <attr name="val">8:A00D</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Operating System Release Date</attr>
+        <attr name="id">6</attr>
+        <attr name="val">8:7207</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Operating System Release Level</attr>
+        <attr name="id">8</attr>
+        <attr name="val">8:0100</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC Fabrication Date</attr>
+        <attr name="id">10</attr>
+        <attr name="val">8:9226</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC Serial Number</attr>
+        <attr name="id">12</attr>
+        <attr name="val">8:0003AA95</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC Batch Identifier</attr>
+        <attr name="id">16</attr>
+        <attr name="val">8:25E2</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC ModuleFabricator</attr>
+        <attr name="id">18</attr>
+        <attr name="val">8:4252</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC ModulePackaging Date</attr>
+        <attr name="id">20</attr>
+        <attr name="val">8:9235</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">ICC Manufacturer</attr>
+        <attr name="id">22</attr>
+        <attr name="val">8:1342</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">IC Embedding Date</attr>
+        <attr name="id">24</attr>
+        <attr name="val">8:9330</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Prepersonalizer Identifier</attr>
+        <attr name="id">26</attr>
+        <attr name="val">8:1673</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Prepersonalization Date</attr>
+        <attr name="id">28</attr>
+        <attr name="val">8:9330</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Prepersonalization Equipment</attr>
+        <attr name="id">30</attr>
+        <attr name="val">8:0102FFFF</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Personalizer Identifier</attr>
+        <attr name="id">34</attr>
+        <attr name="val">8:1673</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Personalization Date</attr>
+        <attr name="id">36</attr>
+        <attr name="val">8:9330</attr>
+      </node>
+      <node>
+        <attr name="classname">item</attr>
+        <attr name="label">Personalization Equipment</attr>
+        <attr name="id">38</attr>
+        <attr name="val">8:0102FFFF</attr>
+      </node>
+    </node>
+  </node>
+</cardtree>
